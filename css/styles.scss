@@ -11,6 +11,43 @@ $carousel-item-height: 300px;
 	padding: $pad-up-dn $pad-left-right;
 }
 
+.login-header{
+    background: $background-dark;
+    color: floralwhite;
+    button {
+        color: floralwhite
+    }
+}
+
+.login-body{
+    background: $background-pale
+
+}
+
+.login-footer{
+    background: $background-light
+
+}
+
+
+.reserve-header{
+    background: $background-dark;
+    color: floralwhite;
+    button {
+        color: floralwhite
+    }
+}
+
+.reserve-body{
+    background: $background-pale
+
+}
+
+.reserve-footer{
+    background: $background-light
+
+}
+
 .row-header{
     @include zero-margin(0px,0px);
 }
@@ -65,8 +102,8 @@ body{
         }
     }
 }
-#carousel-button {
-    right:0px;
+#carouselbuttons {
+    right:15px;
     position: absolute;
     bottom: 0px;
 }
